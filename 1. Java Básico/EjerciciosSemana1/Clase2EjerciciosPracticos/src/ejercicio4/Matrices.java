@@ -69,11 +69,11 @@ public class Matrices {
 			System.out.println("Introduce el asiento");
 			y = sc.nextInt();
 
-			if (x < 0 || x >= asientos.length || y < 0 || y >= asientos.length) {
-				System.out.println("Error: Los valores deben de estar entre 0 y 5");
+			if (x < 1 || x > asientos.length || y < 1 || y > asientos.length) {
+				System.out.println("Error: Los valores deben de estar entre 1 y 5");
 				continue;
 			}
-			if (!asignarAsiento(asientos, x, y))
+			if (!asignarAsiento(asientos, x - 1 , y - 1))
 			{
 				System.out.println("El asiento ya está ocupado. Elija otro");
 				continue;
