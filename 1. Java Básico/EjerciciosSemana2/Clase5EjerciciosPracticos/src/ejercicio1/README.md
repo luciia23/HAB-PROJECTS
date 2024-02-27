@@ -1,4 +1,4 @@
-# Ejercicio Nº 1 - Herencia, Polimorfismo y Encapsulamiento - Individual
+# Ejercicio Nº 1 - Herencia, Polimorfismo y Encapsulamiento
 
 
 ## Clase "Animal"
