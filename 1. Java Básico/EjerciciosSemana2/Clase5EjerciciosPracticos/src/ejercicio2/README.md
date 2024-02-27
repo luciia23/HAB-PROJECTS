@@ -1,4 +1,4 @@
-# Ejercicio Nº 2 - Herencia y Polimorfismo - Individual
+# Ejercicio Nº 2 - Herencia y Polimorfismo
 
 ## Clase "Vestimenta"
 
