@@ -40,7 +40,7 @@ public class Main {
 		System.out.println(mapSet);
 
 		//Encuentra el evento más próximo en el tiempo utilizando Optionals.
-		LocalDate fechaActual =  LocalDate.of(2024, 3, 10);
+		LocalDate fechaActual =  LocalDate.now();
 		eventos.stream().sorted(Comparator.comparing(p -> p.getFecha()))
 		.filter(e -> e.getFecha().isAfter(fechaActual))
 		.findFirst()
